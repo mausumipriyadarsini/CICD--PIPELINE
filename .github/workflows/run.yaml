@@ -52,4 +52,4 @@ jobs:
           echo "![Confusion Matrix](./ConfusionMatrix.png)" >> report.md
           echo "![Feature Importance](./FeatureImportance.png)" >> report.md
 
-          cml comment create report.md
+          cml comment create --publish=false report.md
